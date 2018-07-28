@@ -7,6 +7,8 @@ excerpt_separator: <!--more-->
 
 The importance of the psychology of trading cannot be stated enough. Below are some notes from "Mastering The Trade" that stuck out to me:
 
+<!--more-->
+
 > Though this removal from the literal value of money could certainly be a hazard in real life, it is an excellent habit for removing an emotional element from the trading day. The moment you lose sight of money as a tool of the game and revert to thinking of it in terms of its purchasing power, you have sentenced yourself to playing less skillfully and more emotionally, which is poison to any trader
 
 > Follow your plan and follow your word, and your trading skills will increase
