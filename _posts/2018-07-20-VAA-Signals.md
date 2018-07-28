@@ -1,16 +1,40 @@
 ---
 layout: post
-title: "Markup: Syntax Highlighting"
+title: "vigilant Asset Allocation Signals"
 tags: [code]
 ---
 
-From Michael's Rose [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting).
-Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. [Highlighting](http://en.wikipedia.org/wiki/Syntax_highlighting) does not affect the meaning of the text itself; it is intended only for human readers.
+From Dr. Wouter Keller and JW Keuning [VAA Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3002624) is a dual-momentum based investment strategy with a vigorous crash protection and a fast momentum filter. Dual momentum combines absolute (trendfollowing) and relative (strength) momentum.
 
 
-### GFM Code Blocks
+### VAA Implementation
 
-GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/) are supported. To modify styling and highlight colors edit `/_sass/syntax.scss`.
+Using the Azure Notebook:
+
+```python
+!pip install ffn
+!pip install alpha_vantage
+
+import pandas as pd
+import numpy as np
+import pickle
+from pandas import ExcelWriter
+import ffn
+%matplotlib inline
+
+def save_xls(list_dfs, xls_path,sheet_names):
+    writer = ExcelWriter(xls_path)
+    for n, df in enumerate(list_dfs):
+        df.to_excel(writer, sheet_names[n])
+    writer.save()
+    return
+
+#pull in data from AlphaVantage
+from alpha_vantage.timeseries import TimeSeries
+ts = TimeSeries(key='YOURKEYHERE',output_format='pandas')
+
+```
+
 
 ```css
 #container {
