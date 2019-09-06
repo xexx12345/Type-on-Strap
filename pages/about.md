@@ -10,10 +10,10 @@ tags: [About, Archive]
 <p>
 Toronto. Alumna of University of Toronto.
 <br>
+Alumna of Georgia Institute of Technology
 <br>
-Intrigued by data analytics, investments and trading, philosophy, gaming, strategy, writing.
+Intrigued by Data Analytics, Investments and trading, Philosophy, Gaming, Writing.
 <br>
-<br>
-Seeking to be inspired, to envision the unlikely, to work hard for things that are worth it, and to be surrounded by those who bring out the best in me.
+
 
 </p>
